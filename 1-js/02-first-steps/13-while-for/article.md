@@ -327,7 +327,7 @@ labelName: for (...) {
 }
 ```
 
-The `break <labelName>` statement in the loop below breaks out to the label:
+The `break <labelName>` statement in the loop below breaks out the labeled `for`:
 
 ```js run no-beautify
 *!*outer:*/!* for (let i = 0; i < 3; i++) {
